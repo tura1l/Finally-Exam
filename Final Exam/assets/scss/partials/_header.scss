@@ -1,0 +1,63 @@
+header{
+    nav{
+        .container{
+            padding: 7px;
+            .navbar-brand{
+                font-size: 17px;
+            }
+            .collapse{
+                .nav-item{
+                    .active{
+                        color: #CB5148;
+                    }
+                    .nav-link{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .adopther{
+        background-image: url(https://preview.colorlib.com/theme/adopted/img/slider-2.jpg.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .container{
+            .write{
+                display: flex;
+                flex-direction: column;
+                line-height: 30px;
+                padding: 200px 0px 120px ;
+                .rodriguez{
+                font-family: 'Dancing Script', cursive;
+                font-size: 25px;
+                color: white;
+            }
+            .needs{
+                font-size: 30px;
+                font-weight: 700;
+                color: white;
+            }
+            .loremip{
+                color: white;
+                width: 39%;
+            }
+            .adoptbt{
+                border: 0px;
+                color: white;
+                background-color: #BC5148;
+                border-radius: 4px;
+                width: 13%;
+                padding: 7px;
+                font-size: 14px;
+                font-weight: 400;
+                &:hover{
+                    background-color: #db8b84;
+                    transition: 0.5s;
+                }
+            }
+            }
+            
+        }
+    }
+}

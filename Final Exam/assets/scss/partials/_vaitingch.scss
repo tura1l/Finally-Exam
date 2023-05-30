@@ -1,0 +1,61 @@
+.vaitingch{
+    .container{
+        text-align: center;
+        .row{
+                .item{
+                    & :hover{
+                        box-shadow: 0px 9px 13px 4px rgb(177, 177, 177);
+                    }
+                    .image{
+                        .babe1{
+                            &:hover{
+                                transform: scale(1.01)
+                            }
+                        }
+                        
+                    }
+                   .imgwrite{
+                    display: flex;
+                    align-items: center;
+                    padding: 9px;
+                    .name{
+                        font-weight: 400;
+                        font-size: 17px;
+                    }
+                    .age{
+                        font-size: 12px;
+                        color: #A9AFB4;
+                        margin-top: 4px;
+                    }
+                   }
+            }
+        }
+        .write2{
+            .children{
+                font-size: 25px;
+                font-weight: 500;
+            }
+            .loremip3{
+                font-size: 17px;
+                color: #A9AFB4;
+                display: flex;
+                width: 60%;
+                margin: 0px 20%;
+            }
+            .findbt{
+                border: 0px;
+                color: white;
+                background-color: #BC5148;
+                border-radius: 4px;
+                padding: 7px;
+                font-size: 14px;
+                font-weight: 400;
+                margin: 40px;
+                &:hover{
+                    background-color: #db8b84;
+                    transition: 0.5s;
+                }
+        }
+    }
+}
+}

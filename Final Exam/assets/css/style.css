@@ -1,0 +1,275 @@
+header nav .container {
+  padding: 7px;
+}
+header nav .container .navbar-brand {
+  font-size: 17px;
+}
+header nav .container .collapse .nav-item .active {
+  color: #CB5148;
+}
+header nav .container .collapse .nav-item .nav-link {
+  font-size: 14px;
+}
+header .adopther {
+  background-image: url(https://preview.colorlib.com/theme/adopted/img/slider-2.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .adopther .container .write {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  padding: 200px 0px 120px;
+}
+header .adopther .container .write .rodriguez {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  color: white;
+}
+header .adopther .container .write .needs {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+header .adopther .container .write .loremip {
+  color: white;
+  width: 39%;
+}
+header .adopther .container .write .adoptbt {
+  border: 0px;
+  color: white;
+  background-color: #BC5148;
+  border-radius: 4px;
+  width: 13%;
+  padding: 7px;
+  font-size: 14px;
+  font-weight: 400;
+}
+header .adopther .container .write .adoptbt:hover {
+  background-color: #db8b84;
+  transition: 0.5s;
+}
+
+.adopts .container .row {
+  margin-bottom: 100px;
+}
+.adopts .container .row .parents .parentpn {
+  width: 350px;
+  height: 350px;
+}
+.adopts .container .row .parents .loremip2 {
+  font-size: 13.6px;
+  color: #868EA4;
+}
+.adopts .container .row .parents .adoptbt2 {
+  border: 1px solid #BC5148;
+  color: #BC5148;
+  background-color: white;
+  border-radius: 4px;
+  padding: 7px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.adopts .container .row .parents .adoptbt2:hover {
+  background-color: #BC5148;
+  color: white;
+  transition: 0.5s;
+}
+.adopts .container .row .accordions {
+  margin-top: 150px;
+}
+.adopts .container .row .accordions .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.adopts .container .row .accordions .active, .adopts .container .row .accordions .accordion:hover {
+  background-color: #ccc;
+}
+.adopts .container .row .accordions .panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.vaitingch .container {
+  text-align: center;
+}
+.vaitingch .container .row .item :hover {
+  box-shadow: 0px 9px 13px 4px rgb(177, 177, 177);
+}
+.vaitingch .container .row .item .image .babe1:hover {
+  transform: scale(1.01);
+}
+.vaitingch .container .row .item .imgwrite {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+}
+.vaitingch .container .row .item .imgwrite .name {
+  font-weight: 400;
+  font-size: 17px;
+}
+.vaitingch .container .row .item .imgwrite .age {
+  font-size: 12px;
+  color: #A9AFB4;
+  margin-top: 4px;
+}
+.vaitingch .container .write2 .children {
+  font-size: 25px;
+  font-weight: 500;
+}
+.vaitingch .container .write2 .loremip3 {
+  font-size: 17px;
+  color: #A9AFB4;
+  display: flex;
+  width: 60%;
+  margin: 0px 20%;
+}
+.vaitingch .container .write2 .findbt {
+  border: 0px;
+  color: white;
+  background-color: #BC5148;
+  border-radius: 4px;
+  padding: 7px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 40px;
+}
+.vaitingch .container .write2 .findbt:hover {
+  background-color: #db8b84;
+  transition: 0.5s;
+}
+
+.featured .container .featvrite {
+  text-align: center;
+}
+.featured .container .row .img1 {
+  background-image: url(https://preview.colorlib.com/theme/adopted/img/work_thumb_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  transition: 0.5s all ease-in-out;
+}
+.featured .container .row .img1:hover {
+  transform: scale(1.1);
+}
+.featured .container .row .img1 .plus {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  background-color: black;
+}
+.featured .container .row .img1 .plus:hover {
+  opacity: 0.6;
+}
+.featured .container .row .img1 .plus .ustgel {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 50px;
+}
+.featured .container .row .img1 .plus .date {
+  font-size: 10px;
+  color: white;
+}
+.featured .container .row .img1 .plus .comment {
+  font-size: 15px;
+  color: white;
+}
+.featured .container .row .img2 {
+  background-image: url(https://preview.colorlib.com/theme/adopted/img/work_thumb_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 45px 0px;
+  background-size: cover;
+  transition: 0.5s all ease-in-out;
+}
+.featured .container .row .img2:hover {
+  transform: scale(1.1);
+}
+.featured .container .row .img2 .plus {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  background-color: black;
+}
+.featured .container .row .img2 .plus:hover {
+  opacity: 0.6;
+}
+.featured .container .row .img2 .plus .ustgel {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 50px;
+}
+.featured .container .row .img2 .plus .date {
+  font-size: 10px;
+  color: white;
+}
+.featured .container .row .img2 .plus .comment {
+  font-size: 15px;
+  color: white;
+}
+.featured .container .row .img3 {
+  background-image: url(https://preview.colorlib.com/theme/adopted/img/work_thumb_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 45px 0px;
+  background-size: cover;
+  transition: 0.5s all ease-in-out;
+}
+.featured .container .row .img3:hover {
+  transform: scale(1.1);
+}
+.featured .container .row .img3 .plus {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  background-color: black;
+}
+.featured .container .row .img3 .plus:hover {
+  opacity: 0.6;
+}
+.featured .container .row .img3 .plus .ustgel {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 50px;
+}
+.featured .container .row .img3 .plus .date {
+  font-size: 10px;
+  color: white;
+}
+.featured .container .row .img3 .plus .comment {
+  font-size: 15px;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  background-color: #BC5148;
+  padding: 15px;
+}
+.footer .copy {
+  font-size: 11px;
+  color: #CB929E;
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */

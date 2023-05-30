@@ -1,0 +1,124 @@
+.featured{
+    .container{
+        .featvrite{
+            text-align: center;
+        }
+        .row{
+            .img1{
+                background-image: url(https://preview.colorlib.com/theme/adopted/img/work_thumb_1.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                text-align: center;
+                background-size:cover ;
+                transition: 0.5s all ease-in-out;
+                &:hover{
+                  transform: scale(1.1);
+                }
+                .plus{
+                    padding-top: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    opacity: 0;
+                    background-color: black;
+                    &:hover{
+                    opacity: 0.6;
+                    }
+                    .ustgel{
+                        font-size: 40px;
+                        font-weight: 700;
+                        color: white;
+                        margin-bottom: 50px;
+                       
+                    }
+                    .date{
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .comment{
+                        font-size: 15px;
+                        color: white;
+                    }
+                }
+            }
+            
+            .img2{
+                background-image: url(https://preview.colorlib.com/theme/adopted/img/work_thumb_2.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                text-align: center;
+                padding: 45px 0px;
+                background-size:cover ;
+                transition: 0.5s all ease-in-out;
+                &:hover{
+                  transform: scale(1.1);
+                }
+                .plus{
+                    padding-top: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    opacity: 0;
+                    background-color: black;
+                    &:hover{
+                    opacity: 0.6;
+                    }
+                    .ustgel{
+                        font-size: 40px;
+                        font-weight: 700;
+                        color: white;
+                        margin-bottom: 50px;
+                       
+                    }
+                    .date{
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .comment{
+                        font-size: 15px;
+                        color: white;
+                    }
+                }
+            }
+            .img3{
+                background-image: url(https://preview.colorlib.com/theme/adopted/img/work_thumb_3.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                text-align: center;
+                padding: 45px 0px;
+                background-size:cover ;
+                transition: 0.5s all ease-in-out;
+                &:hover{
+                  transform: scale(1.1);
+                }
+                .plus{
+                    padding-top: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    opacity: 0;
+                    background-color: black;
+                    &:hover{
+                    opacity: 0.6;
+                    }
+                    .ustgel{
+                        font-size: 40px;
+                        font-weight: 700;
+                        color: white;
+                        margin-bottom: 50px;
+                       
+                    }
+                    .date{
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .comment{
+                        font-size: 15px;
+                        color: white;
+                    }
+                }
+            }
+             
+        }
+    }
+}
